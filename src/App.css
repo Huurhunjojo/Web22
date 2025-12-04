@@ -1,0 +1,31 @@
+@keyframes slider {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-slider {
+    animation: slider 20s linear infinite;
+}
+
+.testimonials-swiper .swiper-slide {
+    height: auto;
+}
+
+.testimonials-swiper .swiper-button-next:after,
+.testimonials-swiper .swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+
+.clip-custom {
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
