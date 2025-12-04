@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import "swiper/css";
 import "swiper/css/navigation";
-import { testimonials } from "../data/data";
+import { testimonials } from "../data/data.jsx";
 const Testimonials = () => {
   return (
     <div className="mt-20">

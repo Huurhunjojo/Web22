@@ -1,5 +1,5 @@
 import React from "react";
-import { purposeData } from "../data/data";
+import { purposeData } from "../data/data.jsx";
 const Purpose = () => {
   return (
     <div className="flex sm:flex-col gap-8 px-4 md:px-8">

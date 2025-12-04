@@ -1,5 +1,5 @@
 import React from "react";
-import { footerLinks } from "../data/data";
+import { footerLinks } from "../data/data.jsx";
 import { FaFacebook, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (

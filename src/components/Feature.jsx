@@ -1,5 +1,5 @@
 import React from "react";
-import { features } from "../data/data";
+import { features } from "../data/data.jsx";
 const Feature = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-16 flex flex-col justify-center">
